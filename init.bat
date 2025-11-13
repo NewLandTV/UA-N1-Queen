@@ -9,4 +9,5 @@ call %envName%\Scripts\activate
 
 rem 필요한 모듈 설치
 call python -m pip install --upgrade pip
+call pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu126
 call pip install -r requirements.txt
