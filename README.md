@@ -1,6 +1,6 @@
 # 소개
 
-**UA-N1-Queen**모델은 [Ai project](https://github.com/NewLandTV/Ai-project)에 쓰이는 **대규모 언어 모델(Large Language Model, LLM)**입니다.
+**UA-N1-Queen**모델은 [Ai project](https://github.com/NewLandTV/Ai-project)에 쓰이는 대규모 언어 모델(Large Language Model, LLM)입니다.
 
 ## 개발 동기
 
