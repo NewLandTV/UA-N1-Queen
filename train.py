@@ -12,7 +12,7 @@ from datasets import load_dataset
 # 1. 데이터 로드
 dataset = load_dataset(
     path="dataset",
-    data_files="train.jsonl",
+    data_files=[f"train_part_{i}.jsonl" for i in range(8)],
     split="train"
 )
 print(dataset)
@@ -79,7 +79,7 @@ training_args = TrainingArguments(
     output_dir=output_dir,
     save_strategy="epoch",
     save_total_limit=2,
-    save_steps=300,
+    save_steps=200,
     remove_unused_columns=False
 )
 trainer = Trainer(
